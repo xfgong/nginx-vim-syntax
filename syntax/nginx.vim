@@ -682,6 +682,17 @@ syn keyword ngxDirectiveThirdParty uwsgi_string
 syn keyword ngxDirectiveThirdParty uwsgi_temp_file_write_size
 syn keyword ngxDirectiveThirdParty uwsgi_temp_path
 
+
+" Tengine
+syn keyword ngxDirectiveImportant check_status
+syn keyword ngxDirectiveThirdParty check_http_send
+syn keyword ngxDirectiveThirdParty check_http_expect_alive
+syn keyword ngxDirectiveThirdParty limit_upstream_conn
+syn keyword ngxDirectiveThirdParty limit_upstream_log_level
+syn keyword ngxDirectiveThirdParty limit_access_interface
+syn keyword ngxDirectiveThirdParty limit_access_variable
+
+
 " highlight
 
 hi link ngxComment Comment
